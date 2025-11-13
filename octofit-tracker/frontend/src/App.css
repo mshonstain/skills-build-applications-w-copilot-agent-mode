@@ -1,0 +1,113 @@
+
+body {
+  background: linear-gradient(135deg, #e3f2fd 0%, #fce4ec 100%);
+  color: #212121;
+}
+
+.App {
+  text-align: center;
+  background: rgba(255,255,255,0.85);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #d81b60 100%) !important;
+  box-shadow: 0 2px 8px rgba(33,33,33,0.1);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(33,33,33,0.07);
+}
+.table-dark th {
+  background: #1976d2 !important;
+  color: #fff !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e3f2fd;
+}
+
+.btn {
+  border-radius: 20px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(33,33,33,0.07);
+}
+.btn-success {
+  background: linear-gradient(90deg, #43a047 0%, #388e3c 100%);
+  color: #fff;
+}
+.btn-info {
+  background: linear-gradient(90deg, #0288d1 0%, #26c6da 100%);
+  color: #fff;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #fbc02d 0%, #ffa000 100%);
+  color: #fff;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #7b1fa2 0%, #ba68c8 100%);
+  color: #fff;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #1976d2 0%, #d81b60 100%);
+  color: #fff;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(33,33,33,0.10);
+  margin-bottom: 2rem;
+}
+.card-title {
+  color: #d81b60;
+}
+.card-text {
+  color: #212121;
+}
+
+a {
+  color: #d81b60;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
